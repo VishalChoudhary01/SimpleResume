@@ -93,7 +93,7 @@ section h4 {
   margin-left: 10px;
 }
 
-section h6 {
+section #location{
   margin-left: 11px;
   margin-bottom: 30px;
   font-size: 0.8em;
@@ -172,17 +172,13 @@ article {
   font-size: 1.2em;
   padding: 4px;
 }
-.subheader ul li img {
-  width: 22px;
-  padding: 1px;
-  position: relative;
-  left: 2px;
-  top: 5px;
-}
-.subheader #gmail {
-  font-size: 0.9em;
+
+#gmail  {
   user-select: text;
   cursor: all;
+  font-size: 0.9em;
+  overflow: hidden;
+  
 }
 
 .skills p {
